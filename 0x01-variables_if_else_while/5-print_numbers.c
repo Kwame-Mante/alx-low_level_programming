@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Program that prints all single digit numb of base 10 startn from 0
+ * main - Print all strings from 0 to 9
  * Return: Always 0
 */
 int main(void)
