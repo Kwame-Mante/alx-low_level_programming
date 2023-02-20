@@ -8,17 +8,13 @@ int main(void)
 	char m;
 	char n;
 
-	m = 'a';
-	n = 'A';
-while (m <= 'z')
+	for (m = 'a'; m <= 'z'; m++)
 {
 	putchar(m);
-	m++;
 }
-while (n <= 'Z')
+        for (n = 'A'; n <= 'Z'; n++)
 {
 	putchar(n);
-	n++;
-putchar('\n');
 }
-return (0);
+        putchar('\n');
+        return (0);
