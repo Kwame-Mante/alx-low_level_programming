@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print fizz or buzz
+ * main - print fizz or buzz or fizzbuzz
  *
  * Return: always 0 (sucess)
  */
@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 
-	num = 0;
+	i = 0;
 	while (i < 100)
 	{
 		i++;
